@@ -9,7 +9,7 @@ def chek_date(day: int, month: int, year: int):
         if year % 100 != 0 and year % 4 == 0 or year % 100 == 0 and year % 400 == 0:
             if 0 < day <= 29:
                 return True
-        if 0 < day <= 28:
+        if 0 < day <= 28:   
             return True
     return False   
 
